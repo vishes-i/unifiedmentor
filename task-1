@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+  <img src="C:\Users\adity\OneDrive\Documents\1685670270272.jpg" alt="vishesh-kumar-prajapati" style="width:100%">
+  <h1>VISHESH KUMAR PRAJAPATI</h1>
+  <p class="title">MY AIM WANTS TO BECOME A SOFTWARE ENGINEER</p>
+  <p>BABU BANARASI DAS UNIVERSITY</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+  <p><button ><a   style="text-decoration: none; color: blue;" href="firstpage.html">VIEW-PAGE</a></button></p>
+</div>
+
+</body>
+</html>
+-------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slide Navbar</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+ body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+   
+</style>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>
+                        <a   style="text-decoration: none; font-size: larger;"  href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/NEWPAGE.HTML" > Sign up</a>
+                
+
+                    </button>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<button>
+                        <a style="text-decoration: none; font-size: larger;" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/NEWPAGE.HTML"> Login</a>
+                        
+                        
+                       </button>
+				</form>
+			</div>
+	</div>
+</body>
+</html>
+  -------------
+        <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Personal portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .header {
+            width: 100%;
+            height: 100vh;
+            background-color: lightblue;
+        }
+        nav {
+            display: flex;
+            margin: auto;
+            width: 90%;
+            padding: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        a:hover {
+            background-color: seagreen;
+            border-radius: 2px;
+            color: white;
+        }
+        .button-cv, .button-gfc {
+            display: inline-block;
+            margin-left: 0%;
+            border-radius: 5px;
+            transition: background-color 0.5s;
+            background: black;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button-cv:hover {
+            background-color: white;
+            color: black;
+        }
+        .button-gfc {
+            background: lightsalmon;
+        }
+        .button-gfc:hover {
+            background-color: white;
+            color: black;
+        }
+        .body {
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 30px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        .demo1 {
+            color: orange;
+            margin-bottom: 30px;
+        }
+        .demo2 {
+            line-height: 20px;
+        }
+        .button-lrn, .button-hire {
+            background: lightsalmon;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: whitesmoke;
+            display: inline-block;
+            margin: 30px 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            border: none;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        .button-lrn:hover {
+            background-color: whitesmoke;
+            color: black;
+        }
+        .button-hire {
+            background: black;
+        }
+        .button-hire:hover {
+            background-color: seagreen;
+        }
+        .green {
+            color: seagreen;
+        }
+        .image {
+            max-width: fit-content;
+            height: 70%;
+            position: absolute;
+            bottom: 25%;
+            right: 25%;
+        }
+        .icon {
+            height: 120%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-60%);
+            clip-path: circle(26%);
+        }
+    </style>
+</head>
+<body>
+    <div class="header" style="background-color: rgb(85, 85, 143);">
+        <nav>
+            <a href="#"><img src="c:\Users\adity\Downloads\th.jpeg"  width="50PX" height="50PX"
+                             alt="logo"></a>
+            <ul>
+                <li><a href="2portfolio3434.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT ME</a></li>
+                <li><button type="button" class="button-gfc">
+                    Get Free Consultant
+                </button></li>
+                <li><button type="button" class="button-cv">
+                    DOWNLOAD CV
+                </button></li>
+            </ul>
+        </nav>
+        <div class="body">
+            <p class="demo1">GET EVERY SINGLE SOLUTIONS.</p>
+            <h1>Hello <br> I'm <span class="green">Vishesh-Kumar-Prajapati</span> 
+                <span>Computer Science Engineer.</span>
+            </h1>
+            <p class="demo2">
+                From concept to deployment, I bring ideas<br> 
+                to life as a versatile full stack developer...
+            </p>
+            <button type="button" class="button-lrn">
+                LEARN MORE
+            </button>
+            <button type="button" class="button-hire">
+                HIRE ME
+            </button>
+        </div>
+        <div class="image">
+            <img src="/assets/questions/media/1269191-1730184507.jpg" 
+                 class="icon" alt="Profile Picture">
+        </div>
+    </div>
+</body>
+</html>
+----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+   overflow-x: hidden;
+  /* font-family: 'Nunito', sans-serif; */
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* TRANSITION */
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  opacity: .7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+  font-size: 2rem;
+  opacity: .85;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
+}
+
+/* SECTIONS */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+#profile1{
+  border-radius: 50%;
+  /* width: 23rem;
+  height: 23rem; */
+}
+
+.section__pic-container {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  opacity: .92;
+  /* margin-bottom: 2rem; */
+
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  /* opacity: ; */
+}
+
+/* BUTTONS */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  /* font-weight: normal; */
+}
+a .btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  /* width: 100%; */
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+  /* width: 80vw; */
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+/* .section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+} */
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin: auto;
+  /* margin: 0 3rem; */
+  justify-content: space-around;
+
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  /* margin-left: 1rem;
+  /* gap: 0.5rem; */
+}
+
+article .icon {
+  cursor: default;
+}
+article p {
+  visibility: hidden;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img, .blog-img {
+  border-radius: 1rem;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  /* height: 25rem; */
+  /* width: 100%; */
+  /* display: block; */
+  margin: auto;
+
+}
+
+
+.project-title {
+  margin: 1rem;
+  color: black;
+  opacity: .8;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+/* blog  */
+
+.blog-img {
+  border-radius: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  /* height: 25rem; */
+  /* width: 100%; */
+  /* display: block; */
+  margin: auto;
+
+}
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+
+.highlight{
+  font-weight: bolder;
+}
+
+
+/* theme */
+.dark-mode{
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+}
+
+.whiteText{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .section__pic-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-containers {
+    margin-top: 0;
+  }
+
+  #aboutTitle {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* body{
+    background-color: aqua;
+  } */
+  #contact,
+  footer {
+    height: 40vh;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .section__pic-container {
+    width: auto;
+    height: 50vw;
+    justify-content: center;
+  }
+
+  /* .section__pic-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 2rem;
+  } */
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .about {
+    margin-top: 5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    /* margin-bottom: 15rem; */
+    /* margin-top: 4rem; */
+  }
+
+  #aboutTitle {
+    margin-bottom: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
+    margin: none;
+    padding: 0;
+    /* width: 90vw; */
+
+  }
+
+  #projects {
+    margin-bottom: 1rem;
+  }
+
+}
+
+.navbar li a:link {
+    color:red;
+}
+
+/* visited link */
+.navbar li a:visited {
+    color: green;
+    
+}
+
+/* mouse over link */
+.navbar li a:hover {
+    color: hotpink;
+    display: block; background-color:darkmagenta;
+}
+
+/* selected link */
+.navbar li a:active {
+    color: blue;
+    
+}
+.nav li a:link {
+    color:red;
+}
+
+/* visited link */
+.nav li a:visited {
+    color: hwb(49 0% 50%);
+    
+}
+
+/* mouse over link */
+.nav li a:hover {
+    color: hotpink;
+    display: block; background-color: darkorchid;
+}
+
+/* selected link */
+.nav li a:active {
+    color: blue;
+    
+}
+ul li:first-child{font: size 1.5rem;padding-bottom: 0.8rem;font-weight: bolder;font: 1em sans-serif;border-bottom:#444 solid 1px ; margin-bottom: 1rem ;}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.w3-theme-l1:hover {
+  background-color: #f279a1 !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #ed4d82;
+}
+
+.bottom svg {
+  stroke: #ed4d82;
+  fill: #ed4d82;
+}
+
+
+
+
+.navbar li a:link {
+    color:red;
+}
+
+/* visited link */
+.navbar li a:visited {
+    color: green;
+    
+}
+
+/* mouse over link */
+.navbar li a:hover {
+    color: hotpink;
+    display: block; background-color:darkmagenta;
+}
+
+/* selected link */
+.navbar li a:active {
+    color: blue;
+    
+}
+.nav li a:link {
+    color:red;
+}
+
+/* visited link */
+.nav li a:visited {
+    color: hwb(49 0% 50%);
+    
+}
+
+/* mouse over link */
+.nav li a:hover {
+    color: hotpink;
+    display: block; background-color: darkorchid;
+}
+
+/* selected link */
+.nav li a:active {
+    color: blue;
+    
+}
+ul li:first-child{font: size 1.5rem;padding-bottom: 0.8rem;font-weight: bolder;font: 1em sans-serif;border-bottom:#444 solid 1px ; margin-bottom: 1rem ;}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/ABOUT US SECTION/
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #ffbf35;
+}
+.about-img {
+	width: 100%;
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+.about-us {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.about-us p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 0px;
+}
+/SKILL SECTION/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #ffbf35;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
+}
+</style>
+
+<body style="background-color: rgb(245, 236, 228);">
+<nav id="desktop-nav" style="background-color: rgb(72, 70, 70);">
+    <div class="logo">vishesh kumar prajapti</div>
+    
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">vishesh kumar prajapati</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img decoding="async" id="profile1" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-18 at 09.15.07_707d77df.jpg" alt="John Doe's profile picture" title="vishesh" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vishesh Kumar Prajapati</h1>
+        <p class="section__text__p2"> My Aim Wants To Become a Software Developer</p>
+        <div class="btn-container">
+            <a href="C:\Users\adity\OneDrive\Documents\CGSGHJKTGHGH.pdf" target="_blank" rel="noopener">
+                <button class="btn btn-color-2">
+                    See Resume
+
+                </button>
+            </>
+            <button class="btn btn-color-1">
+                Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <a target="_blank" href="https://www.linkedin.com/in/vishesh-kumar-prajapati-45111829a/" rel="noopener">
+                <img decoding="async" style="height: 150px; width: 150px;" src="C:\Users\adity\Downloads\download (1).png" width="80px"     alt="My LinkedIn profile" class="icon" />
+            </a>
+
+            <a target="_blank" href="https://github.com/vishes-i/-VISHESHCODSOFT" rel="noopener">
+                <img decoding="async" style="height: 150px; width: 150px;"  src="C:\Users\adity\Downloads\download.png" width="100px"    alt="My Github profile" class="icon" />
+            </a>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title" id="aboutTitle">About Me</h1>
+    <div class="section-container">
+
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container" style="background-color: aquamarine;">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-18 at 10.03.39_7dfb0ba6.jpg" alt="Experience icon" class="icon" />
+                    <h3>Educational Experience</h3>
+                    <p>Learning  <br />Frontend/Backend Development</p>
+                </div>
+                <div class="details-container" style="background-color: aquamarine;">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-19 at 17.01.39_7a8b1c0a.jpg" alt="Education icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>Babu banarasi das university<br /></p>
+                    <p>Bachelor of Technology[b.tech cse]<br /></p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; font-size: larger; color: #000;"><span class="highlight"></span>
+                    I'm <span class="highlight"> learning Software Developer</span> from India, I build apps with
+                    a focus on
+                    <span class="highlight">JavaScript, React , Java,&amp;  c++</span> considering
+                    all the aspects of <span class="highlight">UI/UX</span> . I enjoy turning complex problems into
+                    simple,
+                    beautiful and intuitive designs. <br> A
+                    <span class="highlight">Software Engineer</span> , who loves to solve problems.
+
+                    I am having an experience of building high-performing, responsive, beautiful web applications to
+                    deliver a
+                    unique, intuitive user experience that works, also <span class="highlight"> keen interest in
+                        UI/UX</span>
+                    with some nice designing skills. <br> I
+                    am a well-trained team-mate who loves to share ideas and prioritizes communication in order to
+                    achieve goals
+                    within the set deadlines. I enjoy being challenged and working on projects that require me to
+                    step outside
+                    of my comfort zone.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-section bg-lightgrey">
+      <div class="container">
+        <div class="width-50">
+          <img src="c:\Users\adity\OneDrive\Documents\1685670270272.jpg" class="about-img">
+        </div>
+        <div class="width-50">
+          <div class="about-us">
+            <h2 class="heading-text">About Us</h2>
+            <h3>I am available for UI UX Design Project</h3>
+            <p>Hi, I am vishesh-kumar-prajapati, From India. Get best computer science student portfolio website Genius In You With Genius 2025. Welcome To The Best Private University in 2025 Babu Banarasi Das University.</p>
+            <div class="width-50 mt-20">
+              <table cellspacing="8" cellpadding="8">
+                <tr>
+                  <th>Name:</th>
+                  <td>vishesh-kumar-prajapati</td>
+                </tr>
+                <tr>
+                  <th>Email:</th>
+                  <td>visheshprajapati7920@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>Birthday:</th>
+                  <td> 9 september, 2005</td>
+                </tr>
+                <tr>
+                  <th>Study:</th>
+                  <td> Babu Banarasi Das University</td>
+                </tr>
+              </table>
+            </div>
+            <div class="width-50 mt-20">
+              <table cellspacing="8" cellpadding="8">
+                <tr>
+                  <th>Phone:</th>
+                  <td>(+12) 3467-890-123</td>
+                </tr>
+                <tr>
+                  <th>City:</th>
+                  <td>Lucknow,Uttarpradesh</td>
+                </tr>
+                <tr>
+                  <th>Freelancer:</th>
+                  <td> Available</td>
+                </tr>
+                <tr>
+                  <th>Website:</th>
+                  <td>.............</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------SKILL SECTION------>
+<div class="main-section">
+  <div class="container">
+    <h2 class="heading-text">My Skills</h2>
+    <div class="width-50">
+      <div class="skill">
+        <b>HTML</b>
+        <span>95%</span>
+        <div>
+          <span style="width:95%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>CSS</b>
+        <span>91%</span>
+        <div>
+          <span style="width:91%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>JavaScript</b>
+        <span>85%</span>
+        <div>
+          <span style="width:85%"></span>
+        </div>
+      </div>
+      <div class="skill">
+        <b>React js</b>
+        <span>79%</span>
+        <div>
+          <span style="width:79%"></span>
+        </div>
+        </div>
+        <div class="skill">
+          <b>mongodb</b>
+          <span>59%</span>
+          <div>
+            <span style="width:59%"></span>
+          </div>
+          </div>
+          <div class="skill">
+            <b>JAVA</b>
+            <span>79%</span>
+            <div>
+              <span style="width:79%"></span>
+            </div>
+            </div>
+            <div class="skill">
+              <b>PYTHON</b>
+              <span>89%</span>
+              <div>
+                <span style="width:89%"></span>
+              </div>
+              </div>
+              <div class="skill">
+                <b>C-Programming</b>
+                <span>80%</span>
+                <div>
+                  <span style="width:80%"></span>
+                </div>
+                </div>
+                <div class="skill">
+                  <b>C++</b>
+                  <span>59%</span>
+                  <div>
+                    <span style="width:59%"></span>
+                  </div>
+                  </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-19 at 17.01.39_7a8b1c0a.jpg" alt="Arrow icon" class="icon arrow" />
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container" style="background-color: rgb(117, 117, 236);">
+                <h2 class="experience-sub-title">Frontend Development and Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-11-08 075201.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>HTML5</h3>
+                            <p style="color: black; visibility:visible ;" >Advance</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\background.jpg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>CSS3</h3>
+                            <p  style="color: black; visibility:visible ;">Advance</p>
+                        </div style="color: black; visibility:visible ;" >
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\reactjs.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p style="color: black; visibility:visible ;" >Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (6).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>React</h3>
+                            <p style="color: black; visibility:visible ;" >Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (8).jpeg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>C-Programming</h3>
+                            <p style="color: black; visibility:visible ;" >Intermediate</p>
+                        </div>
+                    </article>
+            <article>  
+          <img decoding="async" src="C:\Users\adity\Downloads\download (9).jpeg" alt="Experience icon" class="icon" />
+          <div>
+            <h3>Java</h3>
+         
+            <p  style="color: black; visibility:visible ;">ADVANCE</p>
+          </div>
+        </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (7).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Python </h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (5).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Bootstrap </h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+
+                  <article>
+          <img decoding="async" src="C:\Users\adity\Downloads\download (10).jpeg" alt="Experience icon" class="icon" />
+          <div>
+            <h3>c++ programming</h3>
+            <p  style="color: black; visibility:visible ;">Intermediate</p>
+          </div>
+        </article>
+
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (11).jpeg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Auto-Cad</h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container" style="background-color: rgb(117, 117, 236);">
+                <h2 class="experience-sub-title">Development Tools &amp;Projectas a  Softwares Developer</h2>
+                <div class="article-container">
+                   <article>
+          <img decoding="async" src="C:\Users\adity\Downloads\download (12).png" alt="Experience icon" class="icon" />
+          <div>
+            <h3>Git</h3>
+            <p  style="color: black; visibility:visible ;">Intermediate</p>
+          </div>
+        </article> 
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (11).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>GitHub</h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (10).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>VS code</h3>
+                            <p style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (13).jpeg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Microsoft azure</h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (13).jpeg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Canva</h3>
+                            <p  style="color: black; visibility:visible ;">Baic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (8).png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Netlify</h3>
+                            <p  style="color: black; visibility:visible ;">Baic</p>
+                        </div>
+                    </article>
+                    <article id="lastSkill">
+                        <img decoding="async" src="C:\Users\adity\Downloads\download (12).jpeg" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>IntelliJ Idea</h3>
+                            <p  style="color: black; visibility:visible ;">Intermediate</p>
+                        </div>
+                    </article>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-19 at 17.01.39_7a8b1c0a.jpg" alt="Arrow icon" class="icon arrow" />
+</section>
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 164835.png" alt="Project 3" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                <div class="btn-container">
+                    <a target="_blank" href="https://github.com/" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Github
+                        </button>
+                    </a>
+
+                    <a target="_blank" href="https://github.com" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Live Demo
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 191809.png" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/nikhilkamble02/" target="_blank" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Github
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://github.com" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Live Demo
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 192545.png" alt="Project 2" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" style="font-size: 1.2rem">Project 3</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/" target="_blank" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Github
+                        </button>
+                    </a>
+                    <a target="_blank" href="https://github.com/" rel="noopener">
+
+                        <button class="btn btn-color-2 project-btn">
+                            Live Demo
+                        </button>
+                    </a>
+                                         <button class="btn btn-color-2 project-btn">
+                        Github
+                    </button>
+                    <button disabled class="btn btn-color-2 project-btn">
+                        Live Demo
+                    </button> 
+                </div>
+            </div>
+
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 223003.png" alt="Project 4" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Project 4</h2>
+              <div class="btn-container">
+                  <a target="_blank" href="https://github.com/" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Github
+                      </button>
+                  </a>
+
+                  <a target="_blank" href="https://github.com" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Live Demo
+                      </button>
+                  </a>
+              </div>
+          </div>
+          <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 223025.png" alt="Project 5" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">Project 5</h2>
+              <div class="btn-container">
+                  <a href="https://github.com/nikhilkamble02/" target="_blank" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Github
+                      </button>
+                  </a>
+                  <a target="_blank" href="https://github.com" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Live Demo
+                      </button>
+                  </a>
+              </div>
+          </div>
+          <div class="details-container color-container" style="background-color:rgb(79, 227, 79) ;">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 223051.png" alt="Project 6" class="project-img" />
+              </div>
+              <h2 class="experience-sub-title project-title" style="font-size: 1.2rem">Project 3</h2>
+              <div class="btn-container">
+                  <a href="https://github.com/" target="_blank" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Github
+                      </button>
+                  </a>
+                  <a target="_blank" href="https://github.com/" rel="noopener">
+
+                      <button class="btn btn-color-2 project-btn">
+                          Live Demo
+                      </button>
+                  </a>
+                                       <button class="btn btn-color-2 project-btn">
+                      Github
+                  </button>
+                  <button disabled class="btn btn-color-2 project-btn">
+                      Live Demo
+                  </button> 
+              </div></div></div>
+    </div>
+
+    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-19 at 17.01.39_7a8b1c0a.jpg" alt="Arrow icon" class="icon arrow"  />
+
+
+
+
+
+</section>
+
+
+<section id="blogs">
+    <p class="section__text__p1">Have a Look on My Recent</p>
+    <h1 class="title">Blogs</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-19 170730.png" alt="Project 1" class="blog-img" />
+                </div>
+                <h2 class="experience-sub-title project-title" style="font-size:1.55rem">"HACKTHON PROJECT:Digital Portfolio Platform for Student Creativity
+                  "</h2>
+                <div class="btn-container">
+                    <a target="_blank" href="https://medium.com/" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Read
+                        </button>
+                    </a>
+                    <button class="btn btn-color-2 project-btn">
+          Live Demo
+        </button> 
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-11 at 07.49.26_f4160182.jpg" alt="Project 2" class="blog-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">"COMMERCE WEBSITE"</h2>
+                <div class="btn-container">
+                    <a target="_blank" href="https://medium.com/" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Read
+                        </button>
+                    </a>
+                    <button class="btn btn-color-2 project-btn">
+          Live Demo
+        </button> 
+                </div>
+            </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-25 at 22.22.08_71274027.jpg" alt="Project 3" class="blog-img" />
+                </div>
+
+                <h2 class="experience-sub-title project-title">"AMAZON"</h2>
+                <div class="btn-container">
+                    <a target="_blank" href="https://medium.com/" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">
+                            Read
+                        </button>
+                    </a>
+                    <button class="btn btn-color-2 project-btn">
+          Live Demo
+        </button> 
+                </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-25 at 22.22.28_30e1989e.jpg" alt="Project 1" class="blog-img" />
+              </div>
+              <h2 class="experience-sub-title project-title" style="font-size:1.55rem">"NETFLIX"</h2>
+              <div class="btn-container">
+                  <a target="_blank" href="https://medium.com/" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Read
+                      </button>
+                  </a>
+                  <button class="btn btn-color-2 project-btn">
+        Live Demo
+      </button> 
+              </div>
+          </div>
+          <div class="details-container color-container">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-09-25 221404.png" alt="Project 2" class="blog-img" />
+              </div>
+              <h2 class="experience-sub-title project-title">"Educational Website"</h2>
+              <div class="btn-container">
+                  <a target="_blank" href="https://medium.com/" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Read
+                      </button>
+                  </a>
+                  <button class="btn btn-color-2 project-btn">
+        Live Demo
+      </button> 
+              </div>
+          </div>
+          <div class="details-container color-container">
+              <div class="article-container">
+                  <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-25 at 09.24.25_bd48c4ef.jpg" alt="Project 3" class="blog-img" />
+              </div>
+
+              <h2 class="experience-sub-title project-title">"WEB-VIEW"</h2>
+              <div class="btn-container">
+                  <a target="_blank" href="https://medium.com/" rel="noopener">
+                      <button class="btn btn-color-2 project-btn">
+                          Read
+                      </button>
+                  </a>
+                  <button class="btn btn-color-2 project-btn">
+        Live Demo
+      </button> 
+              </div>
+          </div>
+        </div>
+    </div>
+    <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-19 at 17.01.39_7a8b1c0a.jpg" alt="Arrow icon" class="icon arrow" />
+</section>
+<h1 style="text-align: center;">CERTIFICATION</h1>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-25 at 11.08.50_d50ad2e1.jpg" style="width:100%">
+    <div class="text">certificate java</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-07 at 10.13.28_aafaac85.jpg" style="width:100%">
+    <div class="text">certificate c++</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-13 at 08.56.22_b60c070c.jpg" style="width:100%">
+    <div class="text">certificate data analytic</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-22 at 17.28.17_2100066a.jpg" style="width:100%">
+    <div class="text">certificate JavaScript</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-11 at 09.14.54_036c92f9.jpg" style="width:100%">
+    <div class="text">certificate  sql</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-11 at 09.24.10_a863e845.jpg" style="width:100%">
+    <div class="text">certificate  mastering of java</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-22 at 17.28.18_f5057998.jpg" style="width:100%">
+    <div class="text">certificate google sheet </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-13 at 09.00.07_35230cc4.jpg" style="width:100%">
+    <div class="text">certificate master in chatgpt </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-22 at 18.59.51_14c035cb.jpg" style="width:100%">
+    <div class="text">certificate mongodb </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-22 at 11.32.24_88f96659.jpg" style="width:100%">
+    <div class="text">certificate Auto-Cad </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-16 at 08.31.54_0780dd81.jpg" style="width:100%">
+    <div class="text">certificate java dsa</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-16 at 08.03.27_7818fefc.jpg" style="width:100%">
+    <div class="text">certificate  react</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-23 at 11.11.08_206dc7ea.jpg" style="width:100%">
+    <div class="text">certificate web development </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">14 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-05 at 18.20.38_94f45c3d.jpg" style="width:100%">
+    <div class="text"> internship certificate  </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">15 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-08-03 at 22.41.27_1617f2c3.jpg" style="width:100%">
+    <div class="text"> internship certificate </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">16/ 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-31 at 13.17.45_c1760b01.jpg" style="width:100%">
+    <div class="text"> internship certificate </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">17 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.33.23_c7c589ca.jpg" style="width:100%">
+    <div class="text">certificate java dsa </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">18 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.29_7b62785a.jpg" style="width:100%">
+    <div class="text">certificate deep learning </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">19 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.32_e19ce374.jpg" style="width:100%">
+    <div class="text">certificate artificial intelligence </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">20 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.34_4130d7f9.jpg" style="width:100%">
+    <div class="text">certificate python interview </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">21 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.35_78154284.jpg" style="width:100%">
+    <div class="text">certificate math for machine learning </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">22 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.37_82510926.jpg" style="width:100%">
+    <div class="text">certificate generative ai </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">23 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.41_e6317648.jpg" style="width:100%">
+    <div class="text">certificate  machine learning</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">24 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.41_b8633cf6.jpg" style="width:100%">
+    <div class="text">certificate oops in java </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">25 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.41_a0b4952c.jpg" style="width:100%">
+    <div class="text">certificate dsa interview </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">26 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.43_f18e975c.jpg" style="width:100%">
+    <div class="text">certificate job interview preparation </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">27 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-02 at 18.35.43_ec25b278.jpg" style="width:100%">
+    <div class="text">certificate aws </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">28 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-03 at 17.22.30_97e79576.jpg" style="width:100%">
+    <div class="text">certificate photo album </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">29/ 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-03 at 17.22.51_dfd1ebfa.jpg" style="width:100%">
+    <div class="text">certificate Github </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">30 / 30</div>
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-25 at 22.03.41_e3482bc9.jpg" style="width:100%">
+    <div class="text">certificate </div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+    <span class="dot" onclick="currentSlide(7)"></span> 
+    <span class="dot" onclick="currentSlide(8)"></span> 
+    <span class="dot" onclick="currentSlide(9)"></span> 
+    <span class="dot" onclick="currentSlide(10)"></span> 
+    <span class="dot" onclick="currentSlide(11)"></span> 
+    <span class="dot" onclick="currentSlide(12)"></span> 
+    <span class="dot" onclick="currentSlide(13)"></span> 
+    <span class="dot" onclick="currentSlide(14)"></span> 
+    <span class="dot" onclick="currentSlide(15)"></span> 
+    <span class="dot" onclick="currentSlide(16)"></span> 
+    <span class="dot" onclick="currentSlide(17)"></span> 
+    <span class="dot" onclick="currentSlide(18)"></span> 
+    <span class="dot" onclick="currentSlide(19)"></span> 
+    <span class="dot" onclick="currentSlide(20)"></span> 
+    <span class="dot" onclick="currentSlide(21)"></span> 
+    <span class="dot" onclick="currentSlide(22)"></span> 
+    <span class="dot" onclick="currentSlide(23)"></span> 
+    <span class="dot" onclick="currentSlide(24)"></span> 
+    <span class="dot" onclick="currentSlide(25)"></span> 
+    <span class="dot" onclick="currentSlide(26)"></span> 
+    <span class="dot" onclick="currentSlide(27)"></span> 
+    <span class="dot" onclick="currentSlide(28)"></span> 
+    <span class="dot" onclick="currentSlide(29)"></span> 
+    <span class="dot" onclick="currentSlide(30)"></span> 
+  </div>
+  
+    
+<fieldset style="margin-top: 100PX;">
+  <main class="capable" style="display: inline-flex;">
+    <img  class="erwte" style="width: 500px;height: 500px;"   src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-09 at 09.09.29_f3021587.jpg">
+    <img  class="erwte" style="width: 500px;height: 500px;"   src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-09 at 09.09.29_925e0e5c.jpg">
+    <img  class="erwte" style="width: 500px;height: 500px;"   src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-09 at 09.09.30_1b934f47.jpg">
+    </main>
+    <div style="text-align: center;margin-top: 100PX;" >
+      <img src="C:\Users\adity\OneDrive\Documents\Pictures\Documents - Copy\1685670270272.jpg" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+      <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Hi, I'm  vishesh-kumar-prajapati</span></p>
+      <p style="font-weight: bolder;">Check out my links!</p>
+    </div>
+    <h4 class="margin-top-2" style="text-align: center;">MY SOCIAL NETWORKS</h4>
+    <div class="links-container">
+      <a href="#" style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Facebook</a>
+      <br>
+      <a href="#" style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+      <br>
+      <a href="#" style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Twitter</a>
+      <br>
+      <a href="#" style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
+    </div>
+    <h4 class="margin-top-2" style="text-align: center;">MY CV</h4>
+    <div class="links-container">
+      <a href="#"  style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;"class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Curriculum Vitae</a>
+    </div>
+       <h4 class="margin-top-2" style="text-align: center;">MY BLOG</h4>
+       <div class="links-container">
+         <a href="#" style="background-color: #ed4d82;  text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Hashnode</a>
+       </div>
+       <h4 class="margin-top-2" style="text-align: center;">MY BUSINESS</h4>
+       <div class="links-container">
+         <a href="#" style="background-color: #ed4d82; text-align: center; border-radius: 50%; height:40PX ;" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Business</a>
+       </div>
+      </div>
+      <BR>
+        <BR>
+          <BR>
+            <BR>
+              <BR>
+                <BR>
+          <BR>
+            <BR>
+    </fieldset>
+    <H1 style="text-align: center; margin-top: 100PX;">GOOGLE-MAP</H1>   
+    <P style="text-align: center;">VISIT MY COMPANY</P> 
+    <iframe    src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47169.795533326396!2d77.38522794611738!3d28.51217402233223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks%20%7C%20Coding%20Classes!5e0!3m2!1sen!2sin!4v1712429105950!5m2!1sen!2sin"
+              width="100%" height="450" 
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    
+
+
+
+
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-09-25 at 19.48.11_b67a2ade.jpg" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:johndoe123@gmail.com">visheshprajapati7920@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img decoding="async" src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-10 at 05.34.57_5108b259.jpg" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a target="_blank" href="https://www.linkedin.com/in/vishesh-kumar-prajapati-45111829a/" rel="noopener">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="tools.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 @VISHESHK-P. All Rights Reserved.</p>
+</footer>
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+</body>
+</html>
