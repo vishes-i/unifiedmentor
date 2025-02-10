@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+  <marquee>
+    <h2 style="text-align:center ;background-color:rgb(10, 120, 0);"> Gallery
+  </marquee>
+</h2>
+<marquee>
+  <H3 style="text-align:center;background-color:white;">PHOTOS
+</marquee>
+</H3>
+<marquee>
+  <H4 style="text-align:center;background-color:orangered;">TODAY</H4>
+</marquee>
+
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 22</div>
+    <img src="C:\Users\adity\Downloads\Taj_Mahal_20180814141729.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 22</div>
+    <img src="C:\Users\adity\Downloads\Independence-Day-Historic-Monuments-Red-Fort-Delhi-1366x768.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 /22</div>
+    <img src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-07-26 204722.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 22</div>
+    <img src="C:\Users\adity\Downloads\0_nzMXO3wmXo6syKzA.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 22</div>
+    <img src="C:\Users\adity\Downloads\0_5cgg2BnzbZTj6Lz9.webp" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 22</div>
+    <img src="C:\Users\adity\Downloads\0_PHpzL5LtZTg4P7KG.webp" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7/ 22</div>
+    <img src="C:\Users\adity\Downloads\Humayun’s-Tomb-1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 22</div>
+    <img src="C:\Users\adity\Downloads\Agra-Fort.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">9 / 22</div>
+    <img src="C:\Users\adity\Downloads\Fatehpur-Sikri-1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">10 / 22</div>
+    <img src="C:\Users\adity\Downloads\The-Gorgeous-Golden-Temple.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">11/ 22</div>
+    <img src="C:\Users\adity\Downloads\Mamleshwar-Temple.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">12 / 22</div>
+    <img src="C:\Users\adity\Downloads\The-Jama-Masjid.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">13/ 22</div>
+    <img src="C:\Users\adity\Downloads\Konark-Sun-Temple.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">14/ 22</div>
+    <img src="C:\Users\adity\Downloads\The-Khajuraho-Group-of-Monuments.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">15 / 22</div>
+    <img src="C:\Users\adity\Downloads\Sanchi-Stupa.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">16 / 22</div>
+    <img src="C:\Users\adity\Downloads\Amber-Fort.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">17 /22</div>
+    <img src="C:\Users\adity\Downloads\The-Basilica-of-Bom-Jesus.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">18 / 22</div>
+    <img src="C:\Users\adity\Downloads\The-Hazararama-temple-Hampi.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">19/ 22</div>
+    <img src="C:\Users\adity\Downloads\Bibi-Ka-Maqbara.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">20/ 22</div>
+    <img src="C:\Users\adity\Downloads\The-Charminar.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">21/ 22</div>
+    <img src="C:\Users\adity\Downloads\Golgumbaz.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">22/ 22</div>
+    <img src="C:\Users\adity\Downloads\meenakshi-temple-PD-BLOG.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Taj_Mahal_20180814141729.png" style="width:100%;height:170PX " onclick="currentSlide(1)" alt="TAJ MAHAL:AGRA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Independence-Day-Historic-Monuments-Red-Fort-Delhi-1366x768.webp" style="width:100%;height:170PX " onclick="currentSlide(2)" alt="RED FORT:NEW DELHI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-07-26 204722.png" style="width:100%;height:170PX " onclick="currentSlide(3)" alt="HAWA MAHAL:JAIPUR RAJASTHAN
+
+     ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\0_nzMXO3wmXo6syKzA.webp" style="width:100%;height:170PX " onclick="currentSlide(4)" alt="GATEWAY OF INDIA:MUMBAI MAHARASHTRA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\0_5cgg2BnzbZTj6Lz9.webp" style="width:100%;height:170PX " onclick="currentSlide(5)" alt="LOTUS-TEMPLE -NEW DELHI">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\0_PHpzL5LtZTg4P7KG.webp" style="width:100%;height:170PX ;" onclick="currentSlide(6)" alt="JANTAR-MANTAR:JAIPUR RAJASTHAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Humayun’s-Tomb-1.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(7)" alt="HUMAYUN'S-TOMB:DELHI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Agra-Fort.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(8)" alt="AGRA-FORT:AGRA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Fatehpur-Sikri-1.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(9)" alt="FATEHPUR-SIKRI:FATEHPUR-SIKRI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Gorgeous-Golden-Temple.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(10)" alt="GOLDEN:TEMPLE-PUNJAB">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Mamleshwar-Temple.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(11)" alt="MAMLESHWAR-TEMPLE:PAHALGAM">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Jama-Masjid.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(12)" alt="JAMA-MASJID:OLD DELHI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Konark-Sun-Temple.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(13)" alt="KONARK-SUN-TEMPLE:ODISHA">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Khajuraho-Group-of-Monuments.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(14)" alt="KHAJUROHO-GROUP-OF-MONUMENTS:MADHYA PRADESH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Sanchi-Stupa.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(15)" alt="SANCHI-STUPA:MADHYA PRADESH">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Amber-Fort.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(16)" alt="AMBER-FORT:AMBER">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Basilica-of-Bom-Jesus.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(17)" alt="BASILICA -OF-BOM-JESUS:GOA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Hazararama-temple-Hampi.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(18)" alt="HAZARARANA-TEMPLE-HAMPI:HAMPI">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Bibi-Ka-Maqbara.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(19)" alt="BIBI-KA-MAQBARA:AURANGABAD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\The-Charminar.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(20)" alt="CHARMINAR:HYDERABAD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\Golgumbaz.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(21)" alt="GOLGUMBAZ:BIJAPUR KARANATAKA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="C:\Users\adity\Downloads\meenakshi-temple-PD-BLOG.jpg" style="width:100%;height:170PX ;" onclick="currentSlide(22)" alt="MYSORE-PALACE:MYSORE">
+    </div>
+   
+  </div>
+</div>
+<H4 style=" margin-left: 40PX;">YESTERDAY</H4>
+<div class="row">
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1568093654609-b093490059bd.avif" style="width:100%;height:170PX " onclick="currentSlide(1)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1599813108939-a3adb6652b38.avif" style="width:100%;height:170PX " onclick="currentSlide(2)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1505843513577-22bb7d21e455.avif" style="width:100%;height:170PX " onclick="currentSlide(3)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1549394325-53f5ea5f4f51.avif" style="width:100%;height:170PX " onclick="currentSlide(4)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1516639019654-02afb288592f.avif" style="width:100%;height:170PX " onclick="currentSlide(5)" alt="">
+  </div>    
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1440033203376-20d7503203f1.avif" style="width:100%;height:170PX ;" onclick="currentSlide(6)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1475087542963-13ab5e611954.avif" style="width:100%;height:170PX ;" onclick="currentSlide(7)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1473773386757-42bbe7288351.avif" style="width:100%;height:170PX ;" onclick="currentSlide(8)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1473773621872-5ab40eaa5b39.avif" style="width:100%;height:170PX ;" onclick="currentSlide(9)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1473773508845-188df298d2d1.avif" style="width:100%;height:170PX ;" onclick="currentSlide(10)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1472214103451-9374bd1c798e (1).avif" style="width:100%;height:170PX ;" onclick="currentSlide(11)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1538681105587-85640961bf8b (1).avif" style="width:100%;height:170PX ;" onclick="currentSlide(12)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1529663991015-c3d2056835c5.avif" style="width:100%;height:170PX ;" onclick="currentSlide(13)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1534261526002-9ba8b289e35c.avif" style="width:100%;height:170PX ;" onclick="currentSlide(14)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1629980521562-5c69f03e7253.avif" style="width:100%;height:170PX ;" onclick="currentSlide(15)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1536323760109-ca8c07450053.avif" style="width:100%;height:170PX ;" onclick="currentSlide(16)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1470770903676-69b98201ea1c.avif" style="width:100%;height:170PX ;" onclick="currentSlide(17)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1504700610630-ac6aba3536d3.avif" style="width:100%;height:170PX ;" onclick="currentSlide(18)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1502082553048-f009c37129b9.avif" style="width:100%;height:170PX ;" onclick="currentSlide(19)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1447752875215-b2761acb3c5d.avif" style="width:100%;height:170PX ;" onclick="currentSlide(20)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\photo-1433086966358-54859d0ed716.avif" style="width:100%;height:170PX ;" onclick="currentSlide(21)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="C:\Users\adity\Downloads\premium_photo-1666863910470-c5906f963cb4.avif" style="width:100%;height:170PX ;" onclick="currentSlide(22)" alt="">
+  </div>
+ 
+</div>
+<button  style="margin-left: 700px; margin-bottom: 200PX ; margin-top: 100px;background-color: black;color: red;width: 100px; height: 50px"><a  style="text-decoration: none" href="asdfgh.html">New-Page</a></button>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+----------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style009.css">
+</head>
+<body>
+<div class="container swiper">
+    <div class="card-wrapper">
+
+        <ul class="card-list swiper-wrapper">
+            <li class="card-item swiper-slide">
+                <a href="https://www.istockphoto.com/photo/hawa-mahal-is-one-of-the-popular-tourist-destination-in-jaipur-gm1543373308-525914907" class="card-link">
+                    <img src="https://media.istockphoto.com/id/1543373308/photo/hawa-mahal-is-one-of-the-popular-tourist-destination-in-jaipur.jpg?s=612x612&w=0&k=20&c=xqLmabPhbJ3gtO0XtV1TsaJhi9y2b2kgg9vLOWbeD_A=" alt="Card Image" class="card-image">
+                    <p class="badge badge-designer">The structure was built in 1799 by the Maharaja Sawai Pratap Singh</p>
+                    <h2 class="card-title">Hawa Mahal (Palace of the Winds) Jaipur, India
+                    </h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="https://www.istockphoto.com/photo/stone-chariot-hampi-gm467496355-33947070" class="card-link">
+                    <img src="https://media.istockphoto.com/id/467496355/photo/stone-chariot-hampi.jpg?s=612x612&w=0&k=20&c=wmYXnVjygsnBHFcogERZWvdRJsHsmtJhqZIrfI0--YA=" alt="Card Image" class="card-image">
+                    <p class="badge badge-developer">World UNESCO heritage sight Stone Chariot used in ceremonies in past.</p>
+                    <h2 class="card-title">Vittala Temple Stone Chariot,Hampi,Karnataka,India.</h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="https://www.istockphoto.com/photo/diwan-i-am-at-the-red-fort-in-delhi-india-gm481216092-69361111?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_photo_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fphotos%2Farchitecture-pillars-historical-4392174%2F&utm_term=architecture+pillars" class="card-link">
+                    <img src="https://cdn.pixabay.com/photo/2019/08/08/06/54/architecture-4392174_1280.jpg" alt="Card Image" class="card-image">
+                    <p class="badge badge-marketer">Marcus Agrippa is thought to have designed the Pantheon in Rome.</p>
+                    <h2 class="card-title">The Pantheon is a well preserved ancient Roman monument.</h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="https://www.istockphoto.com/photo/bahai-lotus-temple-in-new-delhi-india-gm487105014-72232781" class="card-link">
+                    <img src="https://media.istockphoto.com/id/1025313162/photo/lotus-temple.jpg?s=612x612&w=0&k=20&c=WXNjq5prRT8abcZtFOQp47nwqmZ9NN1gAgQTcrg9pvU=" alt="Card Image" class="card-image">
+                    <p class="badge badge-gamer">Night view of Lotus Temple with dramatic clouds in the dusk in New Delhi, India</p>
+                    <h2 class="card-title">
+                        Lotus Temple in New Delhi, India</h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="https://pixabay.com/photos/cathedral-church-religion-holy-7827172/" class="card-link">
+                    <img src="https://cdn.pixabay.com/photo/2021/12/05/09/58/church-6847108_1280.jpg" alt="Card Image" class="card-image">
+                    <p class="badge badge-editor">Church, Architecture, Monument</p>
+                    <h2 class="card-title">Romanesque, Gothic, Baroque, Renaissance, Rococo, Neoclassical, and Postmodern. </h2>
+                    <button class="card-button material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+        <button  style="margin-left: 500px; margin-top: 100px;background-color: black;color: red;width: 100px; height: 50px"><a  style="text-decoration: none" href="GGG.HTML.html">New-Page</a></button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+-----------------------------------
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Slider </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style34.css" />
+  <script src="script67677.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <div class="slider-wrapper">
+    <button id="prev-slide" class="slide-button material-symbols-rounded">
+      chevron_left
+    </button>
+    <ul class="image-list">
+      <img class="image-item" src="https://png.pngtree.com/png-clipart/20230426/original/pngtree-a-small-pink-white-flower-picture-image_5803483.png" alt="img-1" />
+      <img class="image-item" src="https://www.pngplay.com/wp-content/uploads/6/Small-Yellow-Duck-Transparent-PNG.png" alt="img-2" />
+      <img class="image-item" src="https://www.freepngimg.com/thumb/lion/4-small-lion-png-image.png" alt="img-3" />
+      <img class="image-item" src=" https://static.vecteezy.com/system/resources/previews/024/044/175/original/mouse-clipart-transparent-background-free-png.png" alt="img-4" />
+      <img class="image-item" src="https://png.pngtree.com/png-clipart/20210912/original/pngtree-swimming-goldfish-animal-png-image_6735811.jpg" alt="img-5" />
+      <img class="image-item" src="https://pngimg.com/uploads/cat/cat_PNG50533.png" alt="img-6" />
+      <img class="image-item" src="https://th.bing.com/th/id/R.58db42562942e272d714ad09af8d4211?rik=6G%2bF1%2fm8XJEP%2bg&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fpaomedia%2fsmall-n-flat%2f1024%2fcat-icon.png&ehk=rmek3bDdQtapkbvkBiO8QubjzV12nPyREx7dqyC%2beZc%3d&risl=&pid=ImgRaw&r=0" alt="img-7" />
+      <img class="image-item" src="https://pluspng.com/img-png/small-fish-png-hd-fish-png-image-with-transparent-background-2589.jpg"  alt="img-8" />
+      <img class="image-item" src="https://purepng.com/public/uploads/large/purepng.com-small-househousebuildinghomewood-houseconcrete-house-17015284866330tlvi.png" alt="img-9" />
+      <img class="image-item" src="https://png.pngtree.com/png-clipart/20231102/original/pngtree-old-camera-small-photo-png-image_13498177.png" alt="img-10" />
+    </ul>
+    <button id="next-slide" class="slide-button material-symbols-rounded">
+
+    </button>
+  </div>
+  <div class="slider-scrollbar">
+    <div class="scrollbar-track">
+      <div class="scrollbar-thumb"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+-----------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6403bd;
+}
+.container {
+    max-width: 1200px;
+    width: 95%;
+}
+.slider-wrapper {
+    position: relative;
+}
+
+
+
+.slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.slider-wrapper .slide-button:hover {
+    background: #404040;
+}
+.slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+}
+.slider-wrapper .slide-button#next-slide {
+    right: -25px;
+}
+.slider-wrapper .image-list {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+.slider-wrapper .image-list .image-item {
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
+.container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+}
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+}
+.slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+    .slider-wrapper .slide-button {
+        display: none !important;
+    }
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+        scroll-snap-type: x mandatory;
+    }
+    .slider-wrapper .image-list .image-item {
+        width: 280px;
+        height: 380px;
+    }
+    .slider-scrollbar .scrollbar-thumb {
+        width: 20%;
+    }
+}
+------------------
+const initSlider = () => {
+    const imageList = document.querySelector(".slider-wrapper .image-list");
+    const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+    const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
+    const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+
+    // Handle scrollbar thumb drag
+    scrollbarThumb.addEventListener("mousedown", (e) => {
+        const startX = e.clientX;
+        const thumbPosition = scrollbarThumb.offsetLeft;
+        const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+
+        // Update thumb position on mouse move
+        const handleMouseMove = (e) => {
+            const deltaX = e.clientX - startX;
+            const newThumbPosition = thumbPosition + deltaX;
+            // Ensure the scrollbar thumb stays within bounds
+            const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+            const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+
+            scrollbarThumb.style.left = `${boundedPosition}px`;
+            imageList.scrollLeft = scrollPosition;
+        }
+        // Remove event listeners on mouse up
+        const handleMouseUp = () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+            document.removeEventListener("mouseup", handleMouseUp);
+        }
+        // Add event listeners for drag interaction
+        document.addEventListener("mousemove", handleMouseMove);
+        document.addEventListener("mouseup", handleMouseUp);
+    });
+    // Slide images according to the slide button clicks
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide" ? -1 : 1;
+            const scrollAmount = imageList.clientWidth * direction;
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        });
+    });
+    // Show or hide slide buttons based on scroll position
+    const handleSlideButtons = () => {
+        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "flex";
+        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "flex";
+    }
+    // Update scrollbar thumb position based on image scroll
+    const updateScrollThumbPosition = () => {
+        const scrollPosition = imageList.scrollLeft;
+        const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+        scrollbarThumb.style.left = `${thumbPosition}px`;
+    }
+    // Call these two functions when image list scrolls
+    imageList.addEventListener("scroll", () => {
+        updateScrollThumbPosition();
+        handleSlideButtons();
+    });
+}
+window.addEventListener("resize", initSlider);
+window.addEventListener("load", initSlider);
+-
+---------------------
+
+
+new Swiper('.card-wrapper', {
+    loop: true,
+    spaceBetween: 30,
+    // Pagination bullets
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true
+    },
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    // Responsive breakpoints
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        768: {
+            slidesPerView: 2
+        },
+        1024: {
+            slidesPerView: 3
+        }
+    }
+});
+-------------------
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#ECEFFE, #0430f4);
+}
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.card-list .card-item {
+    list-style: none;
+}
+.card-list .card-item .card-link {
+    display: block;
+    background: #8e71a8;
+    padding: 18px;
+    user-select: none;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+.card-list .card-item .card-link:hover {
+    border-color: #5372F0;
+}
+.card-list .card-link .card-image {
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.card-list .card-link .badge {
+    color: #5372F0;
+    width: fit-content;
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    border-radius: 50px;
+    font-weight: 500;
+    background: #DDE4FF;
+    margin: 16px 0 18px;
+}
+.card-list .card-link .badge-designer {
+    color: #B22485;
+    background: #F7DFF5;
+}
+.card-list .card-link .badge-marketer {
+    color: #B25A2B;
+    background: #FFE3D2;
+}
+.card-list .card-link .badge-gamer {
+    color: #205C20;
+    background: #D6F8D6;
+}
+.card-list .card-link .badge-editor {
+    color: #856404;
+    background: #fff3cd;
+}
+.card-list .card-link .card-title {
+    color: #000;
+    font-size: 1.19rem;
+    font-weight: 600;
+}
+.card-list .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #5372F0;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+.card-list .card-link:hover .card-button {
+    color: #fff;
+    background: #5372F0;
+}
+.card-wrapper .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #5372F0;
+}
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+.card-wrapper .swiper-slide-button {
+    color: #5372F0;
+    margin-top: -35px;
+}
+/* Responsive media query code for small screens */
+@media (max-width: 768px) {
+    .card-wrapper {
+        margin: 0 10px 25px;
+    }
+    .card-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+
+      -----------------------------
+      
